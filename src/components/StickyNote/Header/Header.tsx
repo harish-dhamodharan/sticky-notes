@@ -3,6 +3,7 @@ import { AvailableColors, Colors, Position } from "../../../types/types";
 import { setZIndex, getColorById } from "../../../utils";
 import { ColorPicker } from "../../ColorPicker/ColorPicker";
 import "./Header.css";
+import React from "react";
 
 const Header = ({
   colors,

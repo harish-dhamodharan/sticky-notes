@@ -7,6 +7,7 @@ import useLocalStorage from "../../hooks/useLocalStorage";
 import { fakeData } from "../../assets/fakeData";
 import { LS_NOTES_KEY } from "../../constants";
 import { useEffect, useState } from "react";
+import React from "react";
 
 const StickyNotes = () => {
   const [lsNotes, setLSNotes] = useLocalStorage<NoteProp[]>(

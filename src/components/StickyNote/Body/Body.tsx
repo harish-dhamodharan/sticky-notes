@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import { growTextArea, setZIndex } from "../../../utils";
 import "./Body.css";
 import { Colors } from "../../../types/types";
+import React from "react";
 
 const Body = ({
   colors,

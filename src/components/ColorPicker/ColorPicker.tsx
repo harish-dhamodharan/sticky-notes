@@ -1,5 +1,6 @@
 import { AvailableColors } from "../../types/types";
 import "./ColorPicker.css";
+import React from "react";
 
 const PURPLE = "color-purple";
 const BLUE = "color-blue";

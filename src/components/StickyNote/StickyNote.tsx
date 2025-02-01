@@ -4,6 +4,7 @@ import Header from "./Header/Header";
 import Body from "./Body/Body";
 import { NoteProp } from "../../types/interface";
 import { Colors, Position } from "../../types/types";
+import React from "react";
 
 const StickyNote = ({
   note,

@@ -1,8 +1,8 @@
 import "./App.css";
+import React from "react";
 import StickyNotes from "./components/StickyNotes/StickyNotes";
 
 function App() {
-  console.log("reached here in App.tsx");
   return <StickyNotes />;
 }
 
