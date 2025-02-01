@@ -1,0 +1,24 @@
+.color-picker {
+    display: flex;
+    width: 6rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.25rem;
+    cursor: pointer;
+}
+
+.color-yellow{
+    background: #FFF5DF;
+}
+
+.color-blue{
+    background: #A6DCE9;
+}
+
+.color-purple{
+    background: #FEE5FD;
+}
+
+.selected {
+    outline : 2px solid #7c53dc;
+}

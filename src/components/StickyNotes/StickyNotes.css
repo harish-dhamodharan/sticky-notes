@@ -1,0 +1,46 @@
+
+.create {
+  display: flex;
+  height: 10dvh;
+  align-items: center;
+  justify-content: left;
+  margin: 0 1rem;
+}
+
+.create-note {
+  border: none;
+  border-radius: 50%;
+  box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.1);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  line-height: 0;
+}
+
+.side-text {
+  width: 0;
+  overflow: hidden;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.create-note:hover, .create-note:focus {
+  border-radius: 10rem;
+  outline: 4px solid #7c53dc;
+}
+
+.create-note:hover .side-text,
+.create-note:focus .side-text {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  padding-left: .5rem;
+  width: 6rem;
+  line-height: 1;
+}
+
+.notes-area {
+  position: relative;
+}

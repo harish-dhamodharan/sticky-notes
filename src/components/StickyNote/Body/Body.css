@@ -1,0 +1,19 @@
+.note-body {
+    padding: 1rem;
+    border-radius: 0 0 5px 5px;
+}
+
+.note-body textarea {
+    background-color: inherit;
+    border: none;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    font-size: normal;
+}
+
+textarea:focus {
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
